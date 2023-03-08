@@ -12,7 +12,7 @@ Here is a preview of the QR code component that I created:
 
 You can view the live site of my QR code component by clicking on the link below:
 
-- Live Site URL: [QR Code Component](https://your-live-site-url.com)
+- Live Site URL: [QR Code Component](https://qr-code-component.kkhwjnrk.vercel.app/)
 
 ### Built with
 
