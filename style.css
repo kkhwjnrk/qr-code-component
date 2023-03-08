@@ -21,6 +21,7 @@ img {
 }
 
 body {
+  text-align: center;
   font-family: var(--ff-outfit);
   font-size: .9375rem;
   font-weight: 400;
@@ -30,11 +31,9 @@ body {
 }
 
 main {
-  text-align: center;
   width: 80%;
-  height: 100vh;
+  min-height: 90vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
