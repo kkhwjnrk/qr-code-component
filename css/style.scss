@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$white-clr: hsl(0, 0%, 100%);
+$light-gray-clr: hsl(212, 45%, 89%);
+$grayish-blue-clr: hsl(220, 15%, 55%);
+$dark-blue-clr: hsl(218, 44%, 22%);
+$link-clr: hsl(228, 45%, 44%);
+
+$ff-outfit: 'Outifit', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: $ff-outfit;
+  font-size: .9375rem;
+  font-weight: 400;
+  background-color: $light-gray-clr;
+  color: $grayish-blue-clr;
+  width: 100%;
+}
+
+main {
+  width: 80%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: $white-clr;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  
+  .qr-code {
+    aspect-ratio: 1 / 1;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+}
+
+.content {
+  padding: 1rem .5rem;
+  
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $dark-blue-clr;
+    margin-bottom: 1rem;
+  }
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: 700;
+  color: $link-clr;
+}
+
+@media (min-width: 376px) {
+  .card {
+    max-width: 300px;
+  }
+}

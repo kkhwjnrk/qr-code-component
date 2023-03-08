@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-:root {
-  --white-clr: hsl(0, 0%, 100%);
-  --light-gray-clr: hsl(212, 45%, 89%);
-  --grayish-blue-clr: hsl(220, 15%, 55%);
-  --dark-blue-clr: hsl(218, 44%, 22%);
-  --link-clr: hsl(228, 45%, 44%);
-
-  --ff-outfit: 'Outifit', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -22,11 +12,11 @@ img {
 
 body {
   text-align: center;
-  font-family: var(--ff-outfit);
-  font-size: .9375rem;
+  font-family: "Outifit", sans-serif;
+  font-size: 0.9375rem;
   font-weight: 400;
-  background-color: var(--light-gray-clr);
-  color: var(--grayish-blue-clr);
+  background-color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
   width: 100%;
 }
 
@@ -40,34 +30,34 @@ main {
 }
 
 .card {
-  background-color: var(--white-clr);
+  background-color: hsl(0, 0%, 100%);
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
   overflow: hidden;
 }
 
-.qr-code {
-  aspect-ratio: 1 / 1;
+.card .qr-code {
+  aspect-ratio: 1/1;
   border-radius: 1rem;
   overflow: hidden;
 }
 
 .content {
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
 }
 
 .content h1 {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--dark-blue-clr);
+  color: hsl(218, 44%, 22%);
   margin-bottom: 1rem;
 }
 
 .attribution a {
   text-decoration: none;
   font-weight: 700;
-  color: var(--link-clr);
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 376px) {
@@ -75,3 +65,5 @@ main {
     max-width: 300px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
