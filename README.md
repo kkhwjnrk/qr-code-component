@@ -8,5 +8,5 @@ Here is a preview of the QR code component that I created:
 ![Preview for the QR code component coding challenge](./design/preview.png)
 
 ### Link 🔗
-- Live Site URL: [QR Code Component](https://qr-code-component.kkhwjnrk.vercel.app/)
+- Live Site URL: [QR Code Component](https://qr-code.kkhwjnrk.vercel.app/)
 - Frontend Mentor - [@kkhwjnrk](https://www.frontendmentor.io/profile/kkhwjnrk)
